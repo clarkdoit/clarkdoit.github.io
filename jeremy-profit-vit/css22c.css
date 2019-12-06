@@ -1,0 +1,35 @@
+
+
+.center .btn {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 10px;
+	font-size: 34px;
+	line-height: 40px;
+	text-align: center;
+	border: solid 2px #000;
+	width: 300px;
+}
+
+.center .btn--orange {
+	background: #45B37D;
+	color: #fff!important;
+	max-width: 300px;
+	text-align: center;
+}
+
+.center .btn--animate-grow {
+	transition-duration: .3s;
+	transition-property: transform
+}
+
+.center .btn--animate-grow:hover {
+	transform: scale(1.1);
+	cursor: pointer
+}
+.center {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
